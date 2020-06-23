@@ -1,6 +1,6 @@
 [package]
 name = "not_copy"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["jacobkiesel <kieseljake@gmail.com>"]
 edition = "2018"
 repository = "https://github.com/Xaeroxe/not_copy"
@@ -11,3 +11,4 @@ description = "For when you need to trivially turn a Copy type into something th
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+serde = { version = "1.0", optional = true }
